@@ -1,0 +1,38 @@
+{
+    "name": "bin-spotter",
+    "version": "1.0.0",
+    "description": "Bin finding app",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "format": "prettier --write \"src/**/*.{js,jsx}\"",
+        "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+    },
+    "keywords": [],
+    "author": "Eliza Vilcea",
+    "license": "ISC",
+    "devDependencies": {
+        "@vitejs/plugin-react": "2.1.0",
+        "eslint": "8.24.0",
+        "eslint-config-prettier": "8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.6.1",
+        "eslint-plugin-react": "^7.31.8",
+        "prettier": "2.7.1",
+        "vite": "3.1.4"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "^2.8.0",
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@tanstack/react-query": "^4.10.1",
+        "firebase": "^10.1.0",
+        "framer-motion": "^10.15.0",
+        "leaflet": "^1.9.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-leaflet": "^4.2.1"
+    }
+}
